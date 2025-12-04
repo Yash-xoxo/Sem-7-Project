@@ -8,7 +8,7 @@ I’ll walk through the whole stack, layer by layer, and tie it to the folders y
 
 ---
 
-!()[/i.png]
+![](i.png)
 
 ---
 
