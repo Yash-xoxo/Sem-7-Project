@@ -7,7 +7,7 @@ export async function POST(req: Request) {
 
   try {
     const { text } = await generateText({
-      model: google("gemini-2.0-flash-001", {
+      model: google("gemini-2.5-flash", {
         apiKey: "AIzaSyDQ69bUwxtvSwZDPvoBbr2JdM-L4SXy6E0",
       }),
       prompt: `Analyze this investment portfolio and provide insights:

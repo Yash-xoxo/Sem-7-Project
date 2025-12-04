@@ -5,7 +5,7 @@ export async function POST(req: Request) {
   const { messages } = await req.json()
 
   const result = streamText({
-    model: google("gemini-2.0-flash-001", {
+    model: google("gemini-2.5-flash", {
       apiKey: "AIzaSyDQ69bUwxtvSwZDPvoBbr2JdM-L4SXy6E0",
     }),
     system: `You are an expert financial advisor and trading assistant for InvestAI Pro. 

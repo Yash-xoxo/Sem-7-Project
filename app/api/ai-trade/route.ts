@@ -7,7 +7,7 @@ export async function POST(req: Request) {
 
   try {
     const { text } = await generateText({
-      model: google("gemini-2.0-flash-001", {
+      model: google("gemini-2.5-flash", {
         apiKey: "AIzaSyCffOjfPkw5wo2ryhI7pvEdSnfLnP7QLT8",
       }),
       prompt: `You are an AI trading bot analyzing a portfolio for optimal trades.
